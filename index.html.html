@@ -1,0 +1,1118 @@
+<!DOCTYPE html><html lang="es"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Piura Urbana | Asesores Inmobiliarios | Vende tu Propiedad Rápido</title>
+<meta content="En Piura Urbana, vendemos tu propiedad más rápido con la asesoría adecuada. Ofrecemos planes de servicio para la venta y alquiler de inmuebles, con asesoría legal completa." name="description"/>
+<meta content="inmobiliaria, Piura, vender propiedad, asesoría inmobiliaria, bienes raíces, Piura Urbana" name="keywords"/>
+<style>.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 24px 40px;
+    background-color: #fff;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    }
+.chart-container {
+    position: relative;
+    margin: 3em auto;
+    max-width: 700px;
+    min-height: 200px;
+    max-height: 400px;
+    width: 100%;
+    height: auto;
+    overflow: visible;
+    }
+img {
+    display: block;
+    overflow: hidden;
+    max-width: 100%;
+    max-height: 280px;
+    margin: 1em auto;
+    border-radius: 8px;
+    }
+h1 {
+    font-size: 28px;
+    margin-top: 24px;
+    margin-bottom: 20px;
+    }
+h2 {
+    font-size: 22px;
+    }
+h3 {
+    font-size: 20px;
+    }
+h4 {
+    font-size: 18px;
+    }
+h5 {
+    font-size: 16px;
+    }
+:root {
+    --primary-color: #036;
+    /* Azul oscuro corporativo */
+    --secondary-color: #d4a017;
+    /* Dorado/Ocre para acentos */
+    --light-gray-color: #f8f9fa;
+    --dark-gray-color: #343a40;
+    --text-color: #495057;
+    --white-color: #fff;
+    --success-color: #28a745;
+    --font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    --font-family-serif: "Georgia", "Times New Roman", serif;
+    }
+body {
+    font-family: var(--font-family-sans-serif);
+    line-height: 1.6;
+    color: var(--text-color);
+    margin: 0 24px 0 24px;
+    padding: 0;
+    background-color: var(--white-color);
+    font-size: 16px;
+    max-width: None;
+    }
+header {
+    background-color: var(--white-color);
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    padding: 1rem 0;
+    }
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    }
+.nav-logo {
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: var(--primary-color);
+    text-decoration: none;
+    }
+.nav-menu {
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+    margin: 0;
+    padding: 0;
+    }
+.nav-item a {
+    text-decoration: none;
+    color: var(--primary-color);
+    font-weight: 500;
+    transition: color 0.3s ease;
+    }
+.nav-item a:hover {
+    color: var(--secondary-color);
+    }
+.cta-button {
+    background-color: var(--secondary-color);
+    color: var(--white-color);
+    padding: 0.75rem 1.5rem;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: 700;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    display: inline-block;
+    }
+.cta-button:hover {
+    background-color: #b8860b;
+    /* Dorado más oscuro */
+    transform: translatey(-2px);
+    }
+.nav-toggle {
+    display: none;
+    font-size: 1.5rem;
+    background: none;
+    border: none;
+    color: var(--primary-color);
+    cursor: pointer;
+    }
+
+.hero {
+    background-color: var(--primary-color);
+    color: var(--white-color);
+    text-align: center;
+    padding: 100px 20px;
+    min-height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    }
+.hero h1 {
+    font-family: var(--font-family-serif);
+    font-size: 3.5rem;
+    margin-bottom: 1rem;
+    max-width: 800px;
+    line-height: 1.2;
+    }
+.hero p {
+    font-size: 1.25rem;
+    margin-bottom: 2rem;
+    max-width: 700px;
+    }
+section {
+    padding: 80px 0;
+    }
+.section-title {
+    text-align: center;
+
+    font-family: var(--font-family-serif);
+    font-size: 2.8rem;
+    color: var(--primary-color);
+    margin-bottom: 1rem;
+    }
+.section-subtitle {
+    text-align: center;
+    font-size: 1.1rem;
+    color: var(--text-color);
+    margin-bottom: 4rem;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    }
+.features-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+    text-align: center;
+    }
+.feature-item {
+    background-color: var(--white-color);
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+.feature-item:hover {
+    transform: translatey(-10px);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+    }
+.feature-item .icon {
+    font-size: 3rem;
+    color: var(--secondary-color);
+    margin-bottom: 1rem;
+    }
+.feature-item h3 {
+    font-size: 1.5rem;
+    color: var(--primary-color);
+    margin-bottom: 0.5rem;
+    }
+#planes {
+    background-color: var(--light-gray-color);
+    }
+.plans-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 2rem;
+    align-items: stretch;
+    }
+.plan-card {
+    background-color: var(--white-color);
+    border: 1px solid #e0e0e0;
+    border-radius: 10px;
+    padding: 2.5rem;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.07);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+.plan-card.premium {
+    border-top: 5px solid var(--secondary-color);
+    transform: scale(1.05);
+    }
+.plan-card:not(.premium):hover {
+    transform: translatey(-10px);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    }
+.plan-card h3 {
+    font-size: 1.8rem;
+    color: var(--primary-color);
+    margin-bottom: 0.5rem;
+    text-align: center;
+    }
+.plan-card .plan-description {
+    color: var(--text-color);
+    text-align: center;
+    margin-bottom: 2rem;
+    min-height: 40px;
+    }
+.plan-card .plan-price {
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: var(--dark-gray-color);
+    text-align: center;
+    margin-bottom: 2rem;
+    padding-bottom: 1.5rem;
+    border-bottom: 1px solid #eee;
+    }
+.plan-card .plan-price span {
+    display: block;
+    font-size: 2.5rem;
+    color: var(--primary-color);
+    margin-bottom: 0.5rem;
+    }
+.plan-card ul {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 2rem 0;
+    flex-grow: 1;
+    }
+.plan-card ul li {
+    margin-bottom: 1rem;
+    display: flex;
+    align-items: flex-start;
+    }
+.plan-card ul li::before {
+    content: "✔";
+    color: var(--success-color);
+    font-weight: 900;
+    margin-right: 10px;
+    margin-top: 2px;
+    }
+.plan-card .plan-note {
+    background-color: #e8f5e9;
+    color: #2e7d32;
+    padding: 1rem;
+    border-radius: 5px;
+    font-size: 0.9rem;
+    text-align: center;
+    margin-top: auto;
+    border-left: 4px solid var(--success-color);
+    }
+.services-accordion {
+    max-width: 800px;
+    margin: 0 auto;
+    }
+.accordion-item {
+    border-bottom: 1px solid #ddd;
+    }
+.accordion-header {
+    width: 100%;
+    background-color: transparent;
+    border: none;
+    text-align: left;
+    padding: 1.5rem 1rem;
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: var(--primary-color);
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: background-color 0.3s;
+    }
+.accordion-header:hover {
+    background-color: #f1f1f1;
+    }
+.accordion-header::after {
+    content: "+";
+    font-size: 2rem;
+    color: var(--secondary-color);
+    transition: transform 0.3s ease;
+    }
+.accordion-item.active .accordion-header::after {
+    transform: rotate(45deg);
+    }
+.accordion-content {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.4s ease-out, padding 0.4s ease-out;
+    background-color: var(--white-color);
+    }
+.accordion-content p {
+    padding: 0 1.5rem 1.5rem 1.5rem;
+    margin: 0;
+    }
+#contacto {
+    background-color: var(--dark-gray-color);
+    color: var(--white-color);
+    }
+#contacto .section-title, #contacto .section-subtitle {
+    color: var(--white-color);
+    }
+.contact-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 3rem;
+    background-color: var(--primary-color);
+    padding: 3rem;
+    border-radius: 10px;
+    }
+.contact-info h3 {
+    font-size: 1.8rem;
+    margin-bottom: 1.5rem;
+    color: var(--secondary-color);
+    }
+.contact-info p {
+    margin-bottom: 1.5rem;
+    font-size: 1.1rem;
+    }
+.contact-info .info-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+    }
+.contact-info .info-item .icon {
+    font-size: 1.5rem;
+    color: var(--secondary-color);
+    margin-right: 1rem;
+    }
+.contact-form .form-group {
+    margin-bottom: 1.5rem;
+    }
+.contact-form label {
+    display: block;
+    margin-bottom: 0.5rem;
+    }
+.contact-form input, .contact-form textarea {
+    width: 100%;
+    padding: 0.8rem;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    background-color: #f1f5f9;
+    color: var(--dark-gray-color);
+    font-family: var(--font-family-sans-serif);
+    }
+.contact-form input:focus, .contact-form textarea:focus {
+    outline: none;
+    border-color: var(--secondary-color);
+    box-shadow: 0 0 5px rgba(212, 160, 23, 0.5);
+    }
+.contact-form textarea {
+    resize: vertical;
+    min-height: 120px;
+    }
+footer {
+    background-color: var(--primary-color);
+    color: #adb5bd;
+    text-align: center;
+    padding: 2rem 0;
+    }
+figure {
+    margin: 40px 0;
+    text-align: center;
+    }
+figure img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    }
+figure figcaption {
+    margin-top: 10px;
+    font-style: italic;
+    font-size: 0.9em;
+    color: #6c757d;
+    }
+@media (max-width: 768px) {
+    .nav-menu {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        position: absolute;
+        top: 70px;
+        left: 0;
+        background-color: var(--white-color);
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
+    .nav-menu.active {
+        display: flex;
+        }
+    .nav-item {
+        text-align: center;
+        padding: 1rem 0;
+        width: 100%;
+        }
+    .nav-toggle {
+        display: block;
+        }
+    .hero h1 {
+        font-size: 2.5rem;
+        }
+    .hero p {
+        font-size: 1.1rem;
+        }
+    .section-title {
+        font-size: 2.2rem;
+        }
+    .plan-card.premium {
+        transform: scale(1);
+        }
+    .contact-wrapper {
+        grid-template-columns: 1fr;
+        padding: 2rem;
+        }
+    }
+@media only screen and (max-device-width: 768px) {
+            body {
+                padding: 0;
+                margin: 0;
+                font-family: PingFang SC;
+                font-size: 15px;
+                line-height: 1.5;
+            }
+
+            .container {
+                padding: 0;
+                margin: 16px 20px 30px;
+                box-shadow: none;
+            }
+
+            h1,
+            h2,
+            h3,
+            h4 {
+                font-family: PingFang SC;
+            }
+
+            h1 {
+                font-size: 1.87em;
+                line-height: 1.6;
+                margin-bottom: 0.5em;
+                text-align: center;
+            }
+
+            h2 {
+                font-size: 1.6em;
+                font-weight: 600;
+                margin-top: 1.3em;
+                margin-bottom: 0.8em;
+                border-bottom: 1px solid #eee;
+                padding-bottom: 0.5em;
+            }
+
+            h3 {
+                font-size: 1.2em;
+                font-weight: 600;
+                margin-top: 1em;
+                margin-bottom: 0.6em;
+            }
+
+            h4 {
+                font-size: 1.1em;
+                font-weight: 500;
+                margin-top: 1em;
+                margin-bottom: 0.5em;
+                font-style: normal;
+            }
+
+            h5 {
+                font-size: 1em;
+                font-weight: 500;
+                margin-bottom: 1.2em;
+            }
+
+            ul,
+            ol {
+                font-size: 1em; /* Equivalent to 17.6px if base is 16px */
+                font-weight: 400;
+                margin-bottom: 1.2em;
+                line-height: 1.8;
+            }
+
+            p {
+                font-size: 1em;
+                line-height: 1.8; /* Equivalent to 17.6px if base is 16px */
+                font-weight: 400;
+                margin-top: 0.8em;
+                margin-bottom: 0.8em;
+            }
+
+            blockquote {
+                padding: 1em 1.2em;
+
+            p {
+                margin: 0;
+            }
+        }
+
+        figcaption {
+            margin-top: 0.5em;
+            font-size: 0.8em; /* Equivalent to 17.6px if base is 16px */
+            font-weight: 400;
+            text-align: center;
+            font-style: normal;
+            color: #7F8896;
+        }
+
+        img {
+            display: block;
+            overflow: hidden;
+            max-width: 100%;
+            max-height: 335px;
+            margin: 1em auto;
+            border-radius: 8px;
+        }
+        }</style>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet"/>
+</head>
+<body><div class="container">
+<header>
+<div class="container">
+<nav class="navbar">
+<a class="nav-logo" href="#inicio">Piura Urbana</a>
+<button aria-label="Abrir menú" class="nav-toggle" id="nav-toggle">
+<i class="fas fa-bars"></i>
+</button>
+<ul class="nav-menu" id="nav-menu">
+<li class="nav-item"><a href="#inicio">Inicio</a></li>
+<li class="nav-item"><a href="#planes">Nuestros Planes</a></li>
+<li class="nav-item"><a href="#servicios-adicionales">Servicios Adicionales</a></li>
+<li class="nav-item"><a href="#contacto">Contacto</a></li>
+</ul>
+</nav>
+</div>
+</header>
+<section class="hero" id="inicio">
+<h1 id="section-1">Vendemos tu Propiedad más Rápido con la Asesoría Adecuada</h1>
+<p>En Piura Urbana, transformamos el complejo proceso de venta de tu inmueble en una experiencia ágil, segura y rentable. Permítenos guiarte hacia el éxito.</p>
+<a class="cta-button" href="#planes">Descubre Nuestros Planes</a>
+</section>
+<figure class="container">
+<img alt="Piura Urbana - Asesoría Inmobiliaria" src="https://static-us-img.skywork.ai/prod/analysis/2025-10-15/2315353285894466545/1978290470589042688_e89b4dc6a95aef5c1ea340ed1efb16c8.jpg" style="max-height: 100%; max-width: 100%;"/>
+</figure>
+<section id="beneficios">
+<div class="container">
+<h2 class="section-title" id="section-1">¿Por Qué Elegir Piura Urbana?</h2>
+<p class="section-subtitle">Nos diferenciamos por ofrecer un servicio integral que garantiza tranquilidad y resultados. Nuestra experiencia y enfoque personalizado son la clave para una transacción exitosa.</p>
+<div class="features-grid">
+<div class="feature-item">
+<div class="icon"><i class="fas fa-handshake"></i></div>
+<h3 id="section-1-1">Asesoría Experta</h3>
+<p>Te acompañamos en cada paso, desde la valoración inicial hasta el cierre de la venta, asegurando que tomes las mejores decisiones.</p>
+</div>
+<div class="feature-item">
+<div class="icon"><i class="fas fa-rocket"></i></div>
+<h3 id="section-1-2">Máxima Velocidad</h3>
+<p>Utilizamos estrategias de marketing digital y una amplia red de contactos para encontrar al comprador ideal en el menor tiempo posible.<em data-skywork="text_badge" data-sk-source-type="web_search" data-sk-source-text="Utilizamos estrategias de marketing digital y una amplia red de contactos para encontrar al comprador ideal en el menor tiempo posible." id="skTag-1978151172433477698" class="sk-source-tag" data-sk-source-id="1978151172433477698" ></em></p>
+</div>
+<div class="feature-item">
+<div class="icon"><i class="fas fa-shield-alt"></i></div>
+<h3 id="section-1-3">Seguridad Jurídica</h3>
+<p>Nuestro equipo legal se encarga de todos los trámites, contratos y saneamiento, protegiendo tu inversión y evitando contratiempos.<em data-skywork="text_badge" data-sk-source-type="web_search" data-sk-source-text="Nuestro equipo legal se encarga de todos los trámites,contratos y saneamiento,protegiendo tu inversión y evitando contratiempos." id="skTag-1978151151357480964" class="sk-source-tag" data-sk-source-id="1978151151357480964" ></em></p>
+</div>
+<div class="feature-item">
+<div class="icon"><i class="fas fa-bullhorn"></i></div>
+<h3 id="section-1-4">Marketing Efectivo</h3>
+<p>Creamos contenido visual de alta calidad y campañas publicitarias segmentadas para destacar tu propiedad en el mercado.<em data-skywork="text_badge" data-sk-source-type="web_search" data-sk-source-text="Creamos contenido visual de alta calidad y campañas publicitarias segmentadas para destacar tu propiedad en el mercado." id="skTag-1978151427913109531" class="sk-source-tag" data-sk-source-id="1978151427913109531" ></em></p>
+</div>
+</div>
+<div style="background-color: var(--light-gray-color); padding: 2rem; border-radius: 8px; margin-top: 4rem; text-align: left; border-left: 5px solid var(--secondary-color);">
+<h3 style="text-align: center; font-size: 1.6rem; color: var(--primary-color);">🏡 ¿Te preocupa vender o alquilar tu propiedad?</h3>
+<p style="font-size: 1.1rem; line-height: 1.8;">
+    ❌ Sin asesoría<em data-skywork="text_badge" data-sk-source-type="web_search" data-sk-source-text="✅ Con Piura Urbana,te damos asesoría personalizada,legal y comercial." id="skTag-1978151356139798546" class="sk-source-tag" data-sk-source-id="1978151356139798546" ></em>, puedes perder tiempo, dinero o caer en errores legales.<br/>
+    ✅ Con Piura Urbana, te damos asesoría personalizada, legal y comercial.<br/>
+    ✅ Nuestro equipo de expertos se encarga de todo por ti.<br/>
+    ✅ Ahorras esfuerzo y energía, y obtienes resultados rápidos y seguros.<br/>
+    💥 <strong>Lo mejor:</strong> sentirás la tranquilidad de estar bien acompañado y el placer de ver tu propiedad generar valor.<br/>
+    📲 <strong>Escríbenos por WhatsApp y empieza a vender con confianza.</strong>
+</p>
+</div>
+</div>
+</section>
+<section id="planes">
+<div class="container">
+<h2 class="section-title" id="section-2">Nuestros Planes: Diseñados para Tu Éxito</h2>
+<p class="section-subtitle">Entendemos que cada cliente y cada propiedad son únicos. Por eso, hemos creado planes flexibles que se adaptan a tus necesidades y objetivos específicos, tanto para la gestión de tus inmuebles como para la prevención de riesgos legales.</p>
+<div class="services-accordion">
+<!-- Acordeón para Asesoría Inmobiliaria -->
+<div class="accordion-item">
+<button class="accordion-header">Asesoría Inmobiliaria (Ver Precios)</button>
+<div class="accordion-content">
+<div class="plans-grid" style="padding: 2rem 0;">
+<div class="plan-card">
+<h3 id="section-2-1">🔹 PLAN BÁSICO</h3>
+<p class="plan-description">Ideal para quienes desean comenzar sin compromiso.</p>
+<div class="plan-price">
+<span>Gratuito</span> para empezar
+                        </div>
+<ul>
+<li>Publicación y promoción del inmueble en nuestros canales digitales.</li>
+<li>Evaluación del precio de mercado para asegurar una venta justa.</li>
+<li>Asesoría inicial sin costo para resolver tus dudas.</li>
+</ul>
+<div class="plan-note">
+<strong>Solo pagas el 3%</strong> del valor de venta una vez concretada la operación. ✔ Sin adelantos. Sin riesgos. Solo resultados.
+                        </div>
+<a class="cta-button" href="https://wa.me/51942763457?text=Hola,%20estoy%20interesado%20en%20el%20Plan%20Básico%20gratuito.%20Quisiera%20más%20información." style="margin-top: 2rem; text-align: center;" target="_blank">Contactar por WhatsApp</a>
+</div>
+<div class="plan-card premium">
+<h3 id="section-2-2">🔸 PLAN PREMIUM</h3>
+<p class="plan-description">Gestión completa y personalizada para resultados rápidos y seguros.</p>
+<div class="plan-price">
+<span>S/ 649</span> + 2% de la venta final
+                        </div>
+<ul>
+<li><strong>Todo lo del Plan Básico, más:</strong></li>
+<li>Asesoría legal completa (contratos, trámites, saneamiento).<em data-skywork="text_badge" data-sk-source-type="web_search" data-sk-source-text="Asesoría legal completa (contratos,trámites,saneamiento)." id="skTag-1978151356165345283" class="sk-source-tag" data-sk-source-id="1978151356165345283" ></em></li>
+<li>Producción de contenido visual profesional (fotos, videos, recorridos virtuales).<em data-skywork="text_badge" data-sk-source-type="web_search" data-sk-source-text="Producción de contenido visual profesional (fotos,videos,recorridos virtuales)." id="skTag-1978151138661322759" class="sk-source-tag" data-sk-source-id="1978151138661322759" ></em></li>
+<li>Campañas segmentadas en redes sociales y portales inmobiliarios.</li>
+<li>Acompañamiento estratégico en todo el proceso de venta o alquiler.</li>
+</ul>
+<div class="plan-note">
+                            ✔ Ideal para propiedades de alto valor o clientes que buscan eficiencia total y máxima tranquilidad.
+                        </div>
+<a class="cta-button" href="#pago" style="margin-top: 2rem; text-align: center;">Elegir Plan Premium</a>
+</div>
+<div class="plan-card">
+<h3 id="section-2-3">🟢 PLAN INVERSOR</h3>
+<p class="plan-description">Diseñado para propietarios que desean alquilar o reinvertir.</p>
+<div class="plan-price">
+<span>1ra Renta</span> del inmueble alquilado
+                        </div>
+<ul>
+<li>Análisis de rentabilidad y proyección de ingresos.</li>
+<li>Redacción de contratos de alquiler con respaldo legal.</li>
+<li>Gestión de renovación, mantenimiento y revalorización del inmueble.<em data-skywork="text_badge" data-sk-source-type="web_search" data-sk-source-text="Gestión de renovación,mantenimiento y revalorización del inmueble." id="skTag-1978151242323165198" class="sk-source-tag" data-sk-source-id="1978151242323165198" ></em></li>
+<li>Asesoría para reinversión estratégica en el mercado local.</li>
+</ul>
+<div class="plan-note">
+                            ✔ Tú ganas desde el primer mes, nosotros nos encargamos de todo para maximizar tu rentabilidad.
+                        </div>
+<a class="cta-button" href="#pago" style="margin-top: 2rem; text-align: center;">Elegir Plan Inversor</a>
+</div>
+</div>
+</div>
+</div>
+<!-- Acordeón para Servicios Legales Preventivos -->
+<div class="accordion-item">
+<button class="accordion-header">Servicios Legales Preventivos (Ver Precios)</button>
+<div class="accordion-content">
+<div style="padding: 1.5rem;">
+<p style="text-align: center; font-size: 1.1rem; color: var(--text-color); max-width: 800px; margin: 0 auto 2rem auto;">
+<strong>🛑 ¡Alto al Gasto Innecesario en Crisis Legales!</strong><br/>
+    No esperes a que sea demasiado tarde. En lugar de gastar tu dinero en reparar un problema grave, te ofrecemos la solución más inteligente: La Prevención. Nuestros planes son un seguro proactivo para tu futuro.
+</p>
+</div>
+<div class="plans-grid" style="padding: 0 0 2rem 0;">
+<!-- Plan Alerta Temprana -->
+<div class="plan-card">
+<h3>🛡 Alerta Temprana</h3>
+<div class="plan-price"><span>S/ 210.00</span> / mes</div>
+<ul>
+<li>Revisión de 3 documentos simples al mes (hasta 5 páginas cada uno).</li>
+<li>Una consulta virtual de 30 minutos al mes.<em data-skywork="text_badge" data-sk-source-type="web_search" data-sk-source-text="Una consulta virtual de 30 minutos al mes." id="skTag-1978151356123402264" class="sk-source-tag" data-sk-source-id="1978151356123402264" ></em></li>
+<li>Identificación de cláusulas de riesgo y vacíos legales en documentos comunes.<em data-skywork="text_badge" data-sk-source-type="web_search" data-sk-source-text="Identificación de cláusulas de riesgo y vacíos legales en documentos comunes." id="skTag-1978151309717622872" class="sk-source-tag" data-sk-source-id="1978151309717622872" ></em></li>
+</ul>
+<a class="cta-button" href="#pago" style="margin-top: 2rem; text-align: center;">Elegir Plan</a>
+</div>
+<!-- Plan Ruta Segura -->
+<div class="plan-card">
+<h3>🛡 Ruta Segura</h3>
+<div class="plan-price"><span>S/ 549.00</span> / mes</div>
+<ul>
+<li>Revisión de 5 documentos rutinarios o 1 complejo al mes (hasta 15 pág.).</li>
+<li>Dos consultas de 60 minutos al mes.<em data-skywork="text_badge" data-sk-source-type="web_search" data-sk-source-text="Dos consultas de 60 minutos al mes." id="skTag-1978151356127596544" class="sk-source-tag" data-sk-source-id="1978151356127596544" ></em></li>
+<li>Asistencia en cumplimiento normativo y reducción de riesgos laborales.</li>
+</ul>
+<a class="cta-button" href="#pago" style="margin-top: 2rem; text-align: center;">Elegir Plan</a>
+</div>
+<!-- Plan Tranquilidad Total -->
+<div class="plan-card">
+<h3>🛡 Tranquilidad Total</h3>
+<div class="plan-price"><span>S/ 1,900.00</span> / mes</div>
+<ul>
+<li>Revisión ilimitada de documentos rutinarios.</li>
+<li>Revisión de 2 documentos complejos al mes (hasta 100 pág.).</li>
+<li>Consultas ilimitadas y 1 sesión estratégica trimestral.<em data-skywork="text_badge" data-sk-source-type="web_search" data-sk-source-text="Consultas ilimitadas y 1 sesión estratégica trimestral." id="skTag-1978151356169539594" class="sk-source-tag" data-sk-source-id="1978151356169539594" ></em></li>
+<li>Auditoría legal preventiva anual, apoyo en propiedad intelectual y compliance.<em data-skywork="text_badge" data-sk-source-type="web_search" data-sk-source-text="Auditoría legal preventiva anual,apoyo en propiedad intelectual y compliance." id="skTag-1978151404680859650" class="sk-source-tag" data-sk-source-id="1978151404680859650" ></em></li>
+</ul>
+<a class="cta-button" href="#pago" style="margin-top: 2rem; text-align: center;">Elegir Plan</a>
+</div>
+</div>
+<div style="padding: 2rem 1.5rem 1.5rem; text-align: center;">
+<p style="font-size: 1.1rem; color: var(--text-color); max-width: 800px; margin: 0 auto;">
+Si necesitas una consulta adicional o saber qué otros servicios legales ofrecemos según tu presupuesto, <a href="#contacto" style="color: var(--primary-color); font-weight: bold; text-decoration: none;">contáctanos ya mismo</a>.
+<em data-skywork="text_badge" data-sk-source-type="web_search" data-sk-source-text="Si necesitas una consulta adicional o saber qué otros servicios legales ofrecemos según tu presupuesto, contáctanos ya mismo." id="skTag-1978151356165345283" class="sk-source-tag" data-sk-source-id="1978151356165345283" ></em></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<figure class="container">
+<img alt="Firma de un contrato inmobiliario" src="https://agents-download.skywork.ai/image/rt/d8803fec6dd7532875395b78cf47d82d.jpg" style="max-height: 280px; max-width: 100%;"/>
+<figcaption>La firma de un contrato es un paso crucial en cualquier transacción inmobiliaria, donde la asesoría legal garantiza la protección de los intereses de las partes</figcaption>
+</figure>
+<section id="servicios-adicionales">
+<div class="container">
+<h2 class="section-title" id="section-3">Nuestras Especialidades Legales</h2>
+<p class="section-subtitle">Más allá de la asesoría inmobiliaria, contamos con un equipo de abogados especialistas para brindarte respaldo integral en diversas áreas del derecho<em data-skywork="text_badge" data-sk-source-type="web_search" data-sk-source-text="Más allá de la asesoría inmobiliaria,contamos con un equipo de abogados especialistas para brindarte respaldo integral en diversas áreas del derecho." id="skTag-1978151526986764293" class="sk-source-tag" data-sk-source-id="1978151526986764293" ></em>. Tu tranquilidad es nuestra prioridad.</p>
+<div class="services-accordion">
+<div class="accordion-item">
+<button class="accordion-header">Derecho Inmobiliario y Saneamiento Físico-Legal</button>
+<div class="accordion-content">
+<p>
+
+                                Ofrecemos un servicio completo para la regularización de tu propiedad<em data-skywork="text_badge" data-sk-source-type="web_search" data-sk-source-text="Esto incluye el saneamiento físico-legal de predios,un proceso clave para perfeccionar el derecho de propiedad y asegurar su correcta inscripción en los registros públicos ." id="skTag-1978151242323165191" class="sk-source-tag" data-sk-source-id="1978151242323165191" ></em>. Esto incluye el saneamiento físico-legal de predios, un proceso clave para perfeccionar el derecho de propiedad y asegurar su correcta inscripción en los registros públicos . Nos encargamos de la declaratoria de fábrica, independización de unidades, subdivisión de terrenos, rectificación de áreas y linderos, y todos los trámites necesarios ante municipalidades y SUNARP para que tu inmueble quede totalmente saneado y listo para cualquier transacción.
+                                
+<em data-skywork="text_badge" data-sk-source-type="web_search" data-sk-source-text="Nos encargamos de la declaratoria de fábrica,independización de unidades,subdivisión de terrenos,rectificación de áreas y linderos,y todos los trámites necesarios ante municipalidades y SUNARP para que tu inmueble quede totalmente saneado y listo para cualquier transacción." id="skTag-1978151242318970880" class="sk-source-tag" data-sk-source-id="1978151242318970880" ></em></p>
+</div>
+</div>
+<div class="accordion-item">
+<button class="accordion-header">Derecho Civil</button>
+<div class="accordion-content">
+<p><em data-skywork="text_badge" data-sk-source-type="web_search" data-sk-source-text="Brindamos asesoría y representación en una amplia gama de asuntos civiles que rigen las relaciones personales y patrimoniales." id="skTag-1978151356165345283" class="sk-source-tag" data-sk-source-id="1978151356165345283" ></em>
+
+                                Brindamos asesoría y representación en una amplia gama de asuntos civiles que rigen las relaciones personales y patrimoniales. Esto abarca desde la redacción y revisión de todo tipo de contratos para garantizar su validez y proteger tus intereses<em data-skywork="text_badge" data-sk-source-type="web_search" data-sk-source-text="Esto abarca desde la redacción y revisión de todo tipo de contratos para garantizar su validez y proteger tus intereses,hasta la gestión de herencias,testamentos y sucesiones intestadas." id="skTag-1978151527348109322" class="sk-source-tag" data-sk-source-id="1978151527348109322" ></em>, hasta la gestión de herencias, testamentos y sucesiones intestadas. También manejamos casos de responsabilidad civil, indemnizaciones por daños y perjuicios, y resolvemos disputas sobre obligaciones y derechos entre particulares, siempre buscando la solución más favorable para nuestros clientes.
+                                
+<em data-skywork="text_badge" data-sk-source-type="web_search" data-sk-source-text="También manejamos casos de responsabilidad civil,indemnizaciones por daños y perjuicios,y resolvemos disputas sobre obligaciones y derechos entre particulares,siempre buscando la solución más favorable para nuestros clientes." id="skTag-1978151309717622856" class="sk-source-tag" data-sk-source-id="1978151309717622856" ></em></p>
+</div>
+</div>
+<div class="accordion-item">
+<button class="accordion-header">Derecho Laboral</button>
+<div class="accordion-content">
+<p>
+
+                                Defendemos los derechos tanto de trabajadores como de empleadores. Ofrecemos asesoría en la elaboración y revisión de contratos de trabajo<em data-skywork="text_badge" data-sk-source-type="web_search" data-sk-source-text="Ofrecemos asesoría en la elaboración y revisión de contratos de trabajo,cálculo de beneficios sociales,liquidaciones y gestión de despidos." id="skTag-1978151404680859653" class="sk-source-tag" data-sk-source-id="1978151404680859653" ></em>, cálculo de beneficios sociales, liquidaciones y gestión de despidos<em data-skywork="text_badge" data-sk-source-type="web_search" data-sk-source-text="Representamos a nuestros clientes en procesos de negociación colectiva y en litigios por despidos injustificados,hostilidad laboral o incumplimiento de obligaciones." id="skTag-1978151288712548362" class="sk-source-tag" data-sk-source-id="1978151288712548362" ></em>. Representamos a nuestros clientes en procesos de negociación colectiva y en litigios por despidos injustificados, hostilidad laboral o incumplimiento de obligaciones. Nuestro objetivo es asegurar el cumplimiento de la normativa laboral vigente y resolver los conflictos de manera eficiente .
+                                
+</p>
+</div>
+</div>
+<div class="accordion-item">
+<button class="accordion-header">Derecho Penal</button>
+<div class="accordion-content">
+<p>
+
+                                Ofrecemos una defensa penal estratégica y personalizada desde la etapa de investigación preliminar hasta el juicio oral<em data-skywork="text_badge" data-sk-source-type="web_search" data-sk-source-text="Asumimos la defensa en casos de delitos comunes y complejos,garantizando el respeto al debido proceso y los derechos fundamentales del imputado." id="skTag-1978151151373877270" class="sk-source-tag" data-sk-source-id="1978151151373877270" ></em>. Asumimos la defensa en casos de delitos comunes y complejos, garantizando el respeto al debido proceso y los derechos fundamentales del imputado. Nuestra práctica se enfoca en construir una defensa sólida, analizar rigurosamente las pruebas y buscar la mejor estrategia legal para obtener un resultado favorable, ya sea a través de una absolución, una negociación o la aplicación de una pena justa. La comunicación con nuestros clientes es confidencial y prioritaria .
+                                
+</p>
+</div>
+</div>
+<div class="accordion-item">
+<button class="accordion-header">Derecho Tributario</button>
+<div class="accordion-content">
+<p><em data-skywork="text_badge" data-sk-source-type="web_search" data-sk-source-text="Asesoramos a personas y empresas en la correcta gestión de sus obligaciones fiscales." id="skTag-1978151242103128064" class="sk-source-tag" data-sk-source-id="1978151242103128064" ></em>
+
+                                Asesoramos a personas y empresas en la correcta gestión de sus obligaciones fiscales. Nuestros servicios incluyen la planificación tributaria para optimizar la carga impositiva<em data-skywork="text_badge" data-sk-source-type="web_search" data-sk-source-text="Nuestros servicios incluyen la planificación tributaria para optimizar la carga impositiva,la preparación y declaración de impuestos,y la representación en procedimientos de fiscalización y auditorías ante la SUNAT." id="skTag-1978151242103128066" class="sk-source-tag" data-sk-source-id="1978151242103128066" ></em>, la preparación y declaración de impuestos, y la representación en procedimientos de fiscalización y auditorías ante la SUNAT. También defendemos los intereses de los contribuyentes en litigios tributarios, impugnando acotaciones y resoluciones administrativas para asegurar un tratamiento fiscal justo y conforme a la ley .
+                                
+<em data-skywork="text_badge" data-sk-source-type="web_search" data-sk-source-text="También defendemos los intereses de los contribuyentes en litigios tributarios,impugnando acotaciones y resoluciones administrativas para asegurar un tratamiento fiscal justo y conforme a la ley ." id="skTag-1978151242103128082" class="sk-source-tag" data-sk-source-id="1978151242103128082" ></em></p>
+</div>
+</div>
+<div class="accordion-item">
+<button class="accordion-header">Derecho de Familia</button>
+<div class="accordion-content">
+<p>
+
+                                Manejamos con sensibilidad y profesionalismo los asuntos más personales. Brindamos asesoría y patrocinio en procesos de divorcio (de mutuo acuerdo o contencioso)<em data-skywork="text_badge" data-sk-source-type="web_search" data-sk-source-text="Brindamos asesoría y patrocinio en procesos de divorcio (de mutuo acuerdo o contencioso),tenencia y custodia de menores,régimen de visitas y pensión de alimentos." id="skTag-1978151356165345283" class="sk-source-tag" data-sk-source-id="1978151356165345283" ></em>, tenencia y custodia de menores, régimen de visitas y pensión de alimentos. También gestionamos procesos de filiación, adopción y violencia familiar, buscando siempre proteger el interés superior del niño y el bienestar de la familia. Nuestro enfoque es conciliador, pero firme en la defensa de tus derechos.
+                                
+</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section id="contacto">
+<div class="container">
+<h2 class="section-title" id="section-4">Hablemos de tu Propiedad</h2>
+<p class="section-subtitle">¿Listo para dar el siguiente paso? Contáctanos para una asesoría gratuita y sin compromiso. Estamos aquí para responder todas tus preguntas y diseñar un plan a tu medida.</p>
+<div class="contact-wrapper">
+<div class="contact-info">
+<h3 id="section-4-1">Información de Contacto</h3>
+<p>Ponte en contacto directo con nuestros asesores. Tu consulta es el primer paso para una venta exitosa.</p>
+<div class="info-item">
+<div class="icon"><i class="fas fa-phone-alt"></i></div>
+<div>
+<a href="tel:+51998004292" style="color: white; text-decoration: none;">998 004 292</a><br/>
+<a href="tel:+51942763457" style="color: white; text-decoration: none;">942 763 457</a>
+</div>
+</div>
+<div class="info-item">
+<div class="icon"><i class="fas fa-envelope"></i></div>
+<a href="mailto:consultoresyabogadosca@gmail.com" style="color: white; text-decoration: none;">consultoresyabogadosca@gmail.com</a>
+</div>
+<div class="info-item">
+<div class="icon"><i class="fas fa-map-marker-alt"></i></div>
+<span>Piura, Perú</span>
+</div>
+</div>
+<form action="#" class="contact-form" method="POST">
+<div class="form-group">
+<label for="name">Nombre Completo</label>
+<input id="name" name="name" required="" type="text"/>
+</div>
+<div class="form-group">
+<label for="email">Correo Electrónico</label>
+<input id="email" name="email" required="" type="email"/>
+</div>
+<div class="form-group">
+<label for="message">Mensaje</label>
+<textarea id="message" name="message" placeholder="Cuéntanos sobre tu propiedad y qué necesitas..." required=""></textarea>
+</div>
+<button class="cta-button" style="width: 100%; border: none; font-size: 1.1rem; cursor: pointer;" type="submit">Enviar Consulta</button>
+</form>
+</div>
+</div>
+</section>
+<style>
+.payment-section {
+    background-color: var(--light-gray-color);
+    padding: 80px 0;
+}
+.payment-container {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: var(--white-color);
+    padding: 2rem 2.5rem;
+    border-radius: 10px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+}
+.payment-tabs {
+    display: flex;
+    margin-bottom: 2rem;
+    border-bottom: 1px solid #ddd;
+}
+.payment-tab {
+    padding: 1rem 1.5rem;
+    cursor: pointer;
+    border: none;
+    background-color: transparent;
+    font-size: 1rem;
+    font-weight: 600;
+    color: var(--text-color);
+    position: relative;
+    transition: color 0.3s;
+}
+.payment-tab:hover {
+    color: var(--primary-color);
+}
+.payment-tab.active {
+    color: var(--primary-color);
+    border-bottom: 3px solid var(--secondary-color);
+}
+.payment-content {
+    display: none;
+}
+.payment-content.active {
+    display: block;
+}
+.payment-form .form-group {
+    margin-bottom: 1.5rem;
+}
+.payment-form label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: 600;
+    color: var(--dark-gray-color);
+}
+.payment-form input[type="text"],
+.payment-form input[type="file"] {
+    width: 100%;
+    padding: 0.8rem;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-family: var(--font-family-sans-serif);
+}
+.payment-form input:focus {
+    outline: none;
+    border-color: var(--secondary-color);
+    box-shadow: 0 0 5px rgba(212, 160, 23, 0.5);
+}
+.card-details {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+}
+.file-upload-wrapper {
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
+    width: 100%;
+}
+.file-upload-wrapper input[type=file] {
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+    cursor: pointer;
+    height: 100%;
+    width: 100%;
+}
+.file-upload-button {
+    border: 1px solid #ccc;
+    display: inline-block;
+    padding: 0.8rem 1.2rem;
+    cursor: pointer;
+    border-radius: 5px;
+    background-color: #f1f1f1;
+    width: 100%;
+    text-align: left;
+    color: #555;
+}
+#file-name {
+    margin-top: 10px;
+    font-style: italic;
+    color: #555;
+}
+.payment-logos img {
+    height: 25px;
+    width: auto;
+    margin: 0 5px;
+    display: inline-block;
+}
+.payment-verification {
+    display: none;
+    padding: 1.5rem;
+    margin-top: 1.5rem;
+    background-color: #e8f5e9;
+    color: #2e7d32;
+    border-left: 5px solid var(--success-color);
+    border-radius: 5px;
+    text-align: center;
+    font-weight: 500;
+}
+</style>
+<section class="payment-section" id="pago">
+<div class="container">
+<h2 class="section-title">Métodos de Pago</h2>
+<p class="section-subtitle">Elige tu plan y realiza el pago de forma rápida y segura. Una vez verificado, un asesor se pondrá en contacto contigo.</p>
+<div class="payment-container">
+<div class="payment-tabs">
+<button class="payment-tab active" data-target="#tarjeta-content"><i class="fas fa-credit-card"></i> Tarjeta</button>
+<button class="payment-tab" data-target="#yape-content">Yape</button>
+<button class="payment-tab" data-target="#plin-content">Plin</button>
+</div>
+<form class="payment-form" id="payment-form">
+<!-- Contenido para Tarjeta -->
+<div class="payment-content active" id="tarjeta-content">
+<div class="form-group">
+<label for="card-holder">Nombre del Titular</label>
+<input id="card-holder" placeholder="Juan Pérez" required="" type="text"/>
+</div>
+<div class="form-group">
+<label for="card-number">Número de Tarjeta</label>
+<input id="card-number" placeholder="0000 0000 0000 0000" required="" type="text"/>
+</div>
+<div class="card-details">
+<div class="form-group">
+<label for="expiry-date">Fecha de Vencimiento</label>
+<input id="expiry-date" placeholder="MM/AA" required="" type="text"/>
+</div>
+<div class="form-group">
+<label for="cvv">CVV</label>
+<input id="cvv" placeholder="123" required="" type="text"/>
+</div>
+</div>
+<p style="font-size: 0.8rem; text-align: center; color: #777;">Pagos seguros procesados por <a href="#" style="color: var(--primary-color);">Zipago Comercio</a>.</p>
+</div>
+<!-- Contenido para Yape -->
+<div class="payment-content" id="yape-content">
+<p style="text-align: center; margin-bottom: 1.5rem;">Realiza el pago Yape al número <strong>942 763 457</strong> y envía tu comprobante de pago a este número.</p>
+<a class="cta-button" href="https://wa.me/51942763457?text=Hola,%20adjunto%20mi%20comprobante%20de%20pago%20realizado%20por%20Yape." style="width: 100%; text-align: center; box-sizing: border-box;" target="_blank">Enviar Comprobante por WhatsApp</a>
+</div>
+<!-- Contenido para Plin -->
+<div class="payment-content" id="plin-content">
+<p style="text-align: center; margin-bottom: 1.5rem;">Realiza el pago Plin al número <strong>942 763 457</strong> y envía tu comprobante de pago a este número.</p>
+<a class="cta-button" href="https://wa.me/51942763457?text=Hola,%20adjunto%20mi%20comprobante%20de%20pago%20realizado%20por%20Plin." style="width: 100%; text-align: center; box-sizing: border-box;" target="_blank">Enviar Comprobante por WhatsApp</a>
+</div>
+</form></div>
+<button class="cta-button" style="width: 100%; border: none; font-size: 1.1rem; cursor: pointer;" type="submit">Pagar Ahora</button>
+
+<div class="payment-verification" id="payment-verification">
+<p>Pago verificado exitosamente. En breve le asignaremos un asesor para que se comunique con usted.</p>
+</div>
+</div>
+</section></div>
+
+<footer>
+<div class="container">
+<p>© 2025 Piura Urbana. Todos los derechos reservados. Diseñado para vender tu propiedad más rápido.</p>
+</div>
+</footer>
+<script>
+        // Script para el menú de navegación en móviles
+        const navToggle = document.getElementById('nav-toggle');
+        const navMenu = document.getElementById('nav-menu');
+
+        if (navToggle) {
+            navToggle.addEventListener('click', () => {
+                navMenu.classList.toggle('active');
+            });
+        }
+        
+        // Script para cerrar el menú al hacer clic en un enlace
+        const navLinks = document.querySelectorAll('.nav-item a');
+        navLinks.forEach(link => {
+            link.addEventListener('click', () => {
+                if (navMenu.classList.contains('active')) {
+                    navMenu.classList.remove('active');
+                }
+            });
+        });
+
+        // Script para el acordeón de servicios
+        const accordionItems = document.querySelectorAll('.accordion-item');
+
+        accordionItems.forEach(item => {
+            const header = item.querySelector('.accordion-header');
+            const content = item.querySelector('.accordion-content');
+
+            header.addEventListener('click', () => {
+                // Cierra todos los demás items
+                accordionItems.forEach(otherItem => {
+                    if (otherItem !== item && otherItem.classList.contains('active')) {
+                        otherItem.classList.remove('active');
+                        otherItem.querySelector('.accordion-content').style.maxHeight = null;
+                    }
+                });
+
+                // Abre o cierra el item actual
+                item.classList.toggle('active');
+                if (item.classList.contains('active')) {
+                    content.style.maxHeight = content.scrollHeight + "px";
+                } else {
+                    content.style.maxHeight = null;
+                }
+            });
+        });
+
+        // --- SCRIPT PARA LA SECCIÓN DE PAGOS ---
+        const paymentTabs = document.querySelectorAll('.payment-tab');
+        const paymentContents = document.querySelectorAll('.payment-content');
+        const paymentForm = document.getElementById('payment-form');
+        const paymentVerification = document.getElementById('payment-verification');
+
+        paymentTabs.forEach(tab => {
+            tab.addEventListener('click', () => {
+                // Desactivar todos
+                paymentTabs.forEach(t => t.classList.remove('active'));
+                paymentContents.forEach(c => c.classList.remove('active'));
+
+                // Activar el seleccionado
+                tab.classList.add('active');
+                document.querySelector(tab.dataset.target).classList.add('active');
+            });
+        });
+
+        // Script para mostrar nombre de archivo
+        const fileInput = document.getElementById('plin-receipt');
+        const fileNameDisplay = document.getElementById('file-name');
+        if (fileInput) {
+            fileInput.addEventListener('change', () => {
+                if (fileInput.files.length > 0) {
+                    fileNameDisplay.textContent = 'Archivo: ' + fileInput.files[0].name;
+                } else {
+                    fileNameDisplay.textContent = '';
+                }
+            });
+        }
+
+        // Simulación de verificación de pago
+        if (paymentForm) {
+            paymentForm.addEventListener('submit', (e) => {
+                e.preventDefault(); // Evita que el formulario se envíe de verdad
+                
+                // Oculta el formulario y muestra el mensaje de verificación
+                paymentForm.style.display = 'none';
+                paymentVerification.style.display = 'block';
+
+                // Opcional: Desplazar la vista al mensaje de verificación
+                paymentVerification.scrollIntoView({ behavior: 'smooth', block: 'center' });
+            });
+        }
+    </script>
+
+
+</body></html>
